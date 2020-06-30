@@ -3,7 +3,6 @@
 #[macro_use]
 extern crate rocket;
 
-mod add;
 mod command;
 mod database;
 mod server;
