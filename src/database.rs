@@ -34,13 +34,11 @@ impl Database {
         Database { path, members }
     }
 
-    pub fn save(&self) -> &Self {
+    pub fn save(&self) {
         let yaml = serde_yaml::to_string(&self.members).expect("Failed to serialize.");
         let file = File::create(&self.path).expect("Failed to open the file.");
         let mut writer = BufWriter::new(file);
 
         writeln!(writer, "{}", yaml).expect("Failed to write.");
-
-        self
     }
 }
