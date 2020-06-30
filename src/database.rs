@@ -4,12 +4,6 @@ use member::Member;
 use std::fs::File;
 use std::io::{BufWriter, Read, Write};
 
-macro_rules! deserialize {
-    ($e:expr) => {
-        serde_yaml::from_str($e.as_str()).expect("Failed to deserialize.");
-    };
-}
-
 fn open(path: &str) -> String {
     let mut file = File::open(path).expect("Failed to open the file.");
     let mut string = String::new();
@@ -29,7 +23,8 @@ pub struct Database {
 impl Database {
     pub fn new(path: String) -> Self {
         let yaml = open(path.as_str());
-        let members: Vec<Member> = deserialize!(yaml);
+        let members: Vec<Member> =
+            serde_yaml::from_str(yaml.as_str()).expect("Failed to deserialize.");
 
         Database { path, members }
     }
