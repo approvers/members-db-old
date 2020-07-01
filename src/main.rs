@@ -13,7 +13,7 @@ pub struct Opts {
     database: String,
 
     #[clap(subcommand)]
-    pub command: Command,
+    command: Command,
 }
 
 fn main() {
