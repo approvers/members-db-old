@@ -3,7 +3,7 @@ Database of members in Approvers, implemented in Rust.
 
 ## Usage
 ```console
-$ cargo run <command> [args...]
+$ cargo run [options] <command> [args...]
 ```
 
 ## Commands
@@ -15,3 +15,7 @@ $ cargo run <command> [args...]
 
 - **add \<name\>**  
   Adds a member with the name.
+
+## Options
+ - **--database=\<path\>**  
+   Forces to use the database located at the path.
