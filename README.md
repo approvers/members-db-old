@@ -17,5 +17,5 @@ $ cargo run [options] <command> [args...]
   Adds a member with the name.
 
 ## Options
- - **--database=\<path\>**  
+ - **-d \<path\>, --database=\<path\>**  
    Forces to use the database located at the path.
