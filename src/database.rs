@@ -17,7 +17,7 @@ fn open(path: &str) -> String {
 #[derive(Debug)]
 pub struct Database {
     path: String,
-    pub members: Vec<Member>,
+    members: Vec<Member>,
 }
 
 impl Database {
@@ -35,5 +35,13 @@ impl Database {
         let mut writer = BufWriter::new(file);
 
         writeln!(writer, "{}", yaml).expect("Failed to write.");
+    }
+
+    pub fn get_members(&self) -> &Vec<Member> {
+        &self.members
+    }
+
+    pub fn add_member(&mut self, member: Member) {
+        self.members.push(member)
     }
 }

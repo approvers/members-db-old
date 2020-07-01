@@ -12,7 +12,7 @@ impl ICommand for ListCommand {
         let path = String::from(&opts.database);
         let database = Database::new(path);
 
-        for member in database.members {
+        for member in database.get_members() {
             println!("{:?}", member);
         }
     }

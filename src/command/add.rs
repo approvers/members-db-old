@@ -15,7 +15,7 @@ impl ICommand for AddCommand {
         let path = String::from(&opts.database);
         let mut database = Database::new(path);
 
-        database.members.push(Member::new(self.name.clone()));
+        database.add_member(Member::new(self.name.clone()));
         database.save();
     }
 }

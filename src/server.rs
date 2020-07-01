@@ -8,7 +8,7 @@ use crate::database::Database;
 
 #[get("/")]
 fn index(state: State<Database>) -> Json<Vec<Member>> {
-    Json(state.members.clone())
+    Json(state.get_members().clone())
 }
 
 pub struct Server {
