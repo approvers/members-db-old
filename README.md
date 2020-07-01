@@ -3,7 +3,7 @@ Database of members in Approvers, implemented in Rust.
 
 ## Usage
 ```console
-$ cargo run
+$ cargo run <command> [args...]
 ```
 
 ## Commands
