@@ -13,5 +13,5 @@ $ cargo run
 - **list**  
   Lists all members.
 
-- **add <name>**  
+- **add \<name\>**  
   Adds a member with the name.
