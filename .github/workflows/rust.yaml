@@ -21,8 +21,11 @@ jobs:
             target
           key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
 
-      - name: Use nightly Rust
-        run: rustup toolchain install nightly
+      - name: Install latest nightly
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: nightly
+          override: true
 
       - name: Build
         run: cargo build --verbose
