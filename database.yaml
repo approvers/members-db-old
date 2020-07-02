@@ -1,5 +1,255 @@
 ---
+- name: loxygen
+  contacts:
+    twitter: loxygenK
+    github: loxygenK
+
+- name: いっそう
+  contacts:
+    twitter: kousou4129
+    github: isso0424
+
+- name: 鏡華
+  contacts:
+    twitter: mirror_kt
+    github: mirror-kt
+
+- name: でみ
+  contacts:
+    twitter: Sw_Saturn
+    github: Sw-Saturn
+
+- name: にとふ
+  contacts:
+    twitter: 2tfuyu
+    github: nitf
+
+- name: Mikuro さいな
+  contacts:
+    twitter: MikuroXina
+    github: MikuroXina
+
+- name: かわえもん
+  contacts:
+    twitter: kawason0708
+    github: kawaemon
+
+- name: kakao.
+  contacts:
+    twitter: e381x
+    github: kakao1839
+
 - name: Siketyan
   contacts:
     twitter: ch1aic
     github: Siketyan
+
+- name: raiga0310
+  contacts:
+    twitter: raiga_tech
+    github: raiga0310
+
+- name: Bony Chops
+  contacts:
+    twitter: BonyChops
+    github: BonyChops
+
+- name: ぽちゃまあ
+  contacts:
+    twitter: PotyaExe
+    github: potyama
+
+- name: ゆにおか
+  contacts:
+    twitter: UniokaWorld
+    github: UniokaWorld
+
+- name: unios103
+  contacts:
+    twitter: unios103
+    github: unios103
+
+- name: SHUN / しゅん
+  contacts:
+    twitter: programmer_shun
+    github: shun-shobon
+
+- name: sou
+  contacts:
+    twitter: is_stone_saw
+    github: stonesaw
+
+- name: たひ
+  contacts:
+    twitter: Tahi_knct
+    github: Tahi-knct
+
+- name: おのかちお
+  contacts:
+    twitter: onokatio_
+    github: onokatio
+
+- name: おりかげ
+  contacts:
+    twitter: _orikage
+    github: ~
+
+- name: かさごん
+  contacts:
+    twitter: Kasagone
+    github: m17saitou
+
+- name: てぃけ
+  contacts:
+    twitter: tky_sleep
+    github: ~
+
+- name: ねこ（はせがわ）
+  contacts:
+    twitter: ~
+    github: ~
+
+- name: watαno
+  contacts:
+    twitter: oxLC_theta
+    github: watano1168
+
+- name: 某さん
+  contacts:
+    twitter: nanigasi_3
+    github: nanigasi-san
+
+- name: Yu
+  contacts:
+    twitter: ~
+    github: ~
+
+- name: かんたろう
+  contacts:
+    twitter: kantarow_
+    github: kantarow
+
+- name: チャハーン
+  contacts:
+    twitter: Chaha1n
+    github: Chaha1n
+
+- name: フレキシブル基板
+  contacts:
+    twitter: FPC_COMMUNITY
+    github: FlexiblePrintedCircuits
+
+- name: Lockdef
+  contacts:
+    twitter: LockDef
+    github: Lockdef
+
+- name: ぬーべすと
+  contacts:
+    twitter: facking_noobest
+    github: noobest19s
+
+- name: fof
+  contacts:
+    twitter: 403_fof
+    github: ~
+
+- name: Lino_Ren
+  contacts:
+    twitter: alpha_linoren
+    github: ~
+
+- name: 寄り目
+  contacts:
+    twitter: Yorime_yrm
+    github: ~
+
+- name: 柚月えふ
+  contacts:
+    twitter: left_an1
+    github: ~
+
+- name: ソーシ
+  contacts:
+    twitter: soshi_harami
+    github: soshiharami
+
+- name: Laminne33569
+  contacts:
+    twitter: laminne33569
+    github: laminne
+
+- name: 白兎
+  contacts:
+    twitter: siroRabi_jk
+    github: ~
+
+- name: Nanai10a
+  contacts:
+    twitter: 771tenNext
+    github: nanai10a
+
+- name: 西行響希
+  contacts:
+    twitter: Saigyo_HBK
+    github: HimHim1113
+
+- name: とすあっぷ
+  contacts:
+    twitter: tos_up
+    github: tos-up
+
+- name: Nii
+  contacts:
+    twitter: niiLoveA320ceo
+    github: ~
+
+- name: しぐま
+  contacts:
+    twitter: sigumaaaaa
+    github: Sigumaa
+
+- name: 宮野 慧
+  contacts:
+    twitter: miyacorata
+    github: miyacorata
+
+- name: ねんね
+  contacts:
+    twitter: nai_ber
+    github: nenne
+
+- name: りゅうと
+  contacts:
+    twitter: rtx_gh
+    github: ~
+
+- name: Yusuke
+  contacts:
+    twitter: idoit_do
+    github: ~
+
+- name: えぬ
+  contacts:
+    twitter: N3JABEE
+    github: ~
+
+- name: Okaka
+  contacts:
+    twitter: ~
+    github: ~
+
+- name: なぎねる
+  contacts:
+    twitter: tirun61031a_o_a
+    github: ~
+
+- name: こるく
+  contacts:
+    twitter: Colk_
+    github: Colk-tech
+
+- name: ko
+  contacts:
+    twitter: ko_CottonLove
+    github: ko50
