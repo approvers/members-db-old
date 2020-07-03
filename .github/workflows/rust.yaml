@@ -28,6 +28,12 @@ jobs:
           override: true
           components: rustfmt,clippy
 
+      - name: Build
+        uses: actions-rs/cargo@v1
+        with:
+          command: build
+          args: --verbose
+
       - name: Run clippy
         uses: actions-rs/clippy-check@v1
         with:
@@ -38,12 +44,6 @@ jobs:
         with:
           command: fmt
           args: -- --check
-
-      - name: Build
-        uses: actions-rs/cargo@v1
-        with:
-          command: build
-          args: --verbose
 
       - name: Run tests
         uses: actions-rs/cargo@v1
