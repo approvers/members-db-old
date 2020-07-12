@@ -1,4 +1,5 @@
 use serde::{Deserialize, Serialize};
+use uuid::Uuid;
 
 #[derive(Clone, Debug, Serialize, Deserialize)]
 pub struct Contacts {
@@ -8,6 +9,7 @@ pub struct Contacts {
 
 #[derive(Clone, Debug, Serialize, Deserialize)]
 pub struct Member {
+    id: Uuid,
     name: String,
     contacts: Contacts,
 }
@@ -15,6 +17,7 @@ pub struct Member {
 impl Member {
     pub fn new(name: String) -> Self {
         Member {
+            id: Uuid::new_v4(),
             name,
             contacts: Contacts {
                 twitter: None,

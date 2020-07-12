@@ -1,10 +1,12 @@
 mod add;
 mod list;
+mod migrate;
 mod serve;
 
 use add::AddCommand;
 use clap::Clap;
 use list::ListCommand;
+use migrate::MigrateCommand;
 use serve::ServeCommand;
 
 use crate::Opts;
@@ -13,6 +15,7 @@ use crate::Opts;
 pub enum Command {
     Add(AddCommand),
     List(ListCommand),
+    Migrate(MigrateCommand),
     Serve(ServeCommand),
 }
 
@@ -24,6 +27,7 @@ pub fn execute(opts: Opts) {
     match &opts.command {
         Command::List(command) => command.execute(&opts),
         Command::Add(command) => command.execute(&opts),
+        Command::Migrate(command) => command.execute(&opts),
         Command::Serve(command) => command.execute(&opts),
     }
 }

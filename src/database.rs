@@ -1,47 +1,40 @@
-pub(crate) mod member;
+pub mod member;
 
 use member::Member;
-use std::fs::File;
-use std::io::{BufWriter, Read, Write};
+use serde::{Deserialize, Serialize};
 
-fn open(path: &str) -> String {
-    let mut file = File::open(path).expect("Failed to open the file.");
-    let mut string = String::new();
+use crate::filesystem;
 
-    file.read_to_string(&mut string)
-        .expect("Failed to read from the file.");
-
-    string
+#[derive(Clone, Debug, Serialize, Deserialize)]
+struct Payload {
+    members: Vec<Member>,
 }
 
 #[derive(Debug)]
 pub struct Database {
     path: String,
-    members: Vec<Member>,
+    payload: Payload,
 }
 
 impl Database {
     pub fn new(path: String) -> Self {
-        let yaml = open(path.as_str());
-        let members: Vec<Member> =
-            serde_yaml::from_str(yaml.as_str()).expect("Failed to deserialize.");
+        let yaml = filesystem::open(path.as_str());
+        let payload: Payload = serde_yaml::from_str(yaml.as_str()).expect("Failed to deserialize.");
 
-        Database { path, members }
+        Database { path, payload }
     }
 
     pub fn save(&self) {
-        let yaml = serde_yaml::to_string(&self.members).expect("Failed to serialize.");
-        let file = File::create(&self.path).expect("Failed to open the file.");
-        let mut writer = BufWriter::new(file);
+        let yaml = serde_yaml::to_string(&self.payload).expect("Failed to serialize.");
 
-        writeln!(writer, "{}", yaml).expect("Failed to write.");
+        filesystem::save(&self.path, yaml)
     }
 
     pub fn get_members(&self) -> &Vec<Member> {
-        &self.members
+        &self.payload.members
     }
 
     pub fn add_member(&mut self, member: Member) {
-        self.members.push(member)
+        self.payload.members.push(member)
     }
 }
