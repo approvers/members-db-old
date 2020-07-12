@@ -1,5 +1,4 @@
 ---
-version: 1
 members:
   - id: 0252b905-ecdd-49c3-8103-368ef556d66e
     name: loxygen
@@ -256,5 +255,8 @@ members:
     contacts:
       twitter: ko_CottonLove
       github: ko50
-
-
+  - id: 55fc9a0d-a1e1-4cee-a794-8285323253c7
+    name: foobar
+    contacts:
+      twitter: ~
+      github: ~
