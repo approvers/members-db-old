@@ -8,7 +8,7 @@ use crate::filesystem;
 
 #[derive(Deserialize)]
 struct Outline {
-    version: Option<usize>,
+    version: Option<u32>,
 }
 
 pub fn migrate(path: &str) -> Result<(), Error> {
