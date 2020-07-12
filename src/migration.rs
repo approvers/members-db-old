@@ -26,5 +26,7 @@ pub fn migrate(path: &str) -> Result<(), Error> {
         println!("Migrated from {}", version)
     }
 
-    Ok(filesystem::save(path, yaml))
+    filesystem::save(path, yaml);
+
+    Ok(())
 }
