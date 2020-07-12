@@ -2,6 +2,7 @@
 
 mod command;
 mod database;
+mod filesystem;
 mod server;
 
 use clap::Clap;
