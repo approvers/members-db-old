@@ -8,7 +8,7 @@ use crate::filesystem;
 
 #[derive(Deserialize)]
 struct Outline {
-    version: Option<u32>,
+    version: u32,
 }
 
 pub fn migrate(path: &str) -> Result<(), Error> {
@@ -16,7 +16,7 @@ pub fn migrate(path: &str) -> Result<(), Error> {
 
     loop {
         let outline: Result<Outline, Error> = serde_yaml::from_str(&yaml);
-        let version = outline.map_or(None, |o| o.version).unwrap_or(0);
+        let version = outline.map_or(0, |o| o.version);
 
         yaml = match version {
             0 => version_0001_uuid::up(&yaml)?,
