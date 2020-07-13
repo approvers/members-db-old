@@ -1,110 +1,110 @@
 ---
-version: 1
+version: 2
 members:
   - id: 0252b905-ecdd-49c3-8103-368ef556d66e
     name: loxygen
     contacts:
-      twitter: loxygenk
-      github: loxygenK
+      twitter: 1142621647976841216
+      github: 55672846
   - id: 9a91b7b6-4263-4a33-9193-e4cedbab816d
     name: いっそう
     contacts:
-      twitter: kousou4129
-      github: isso0424
+      twitter: 944896178952404992
+      github: 49902177
   - id: 5ab2de37-1808-4b38-9957-b8eccb47512b
     name: 鏡華
     contacts:
-      twitter: mirror_kt
-      github: mirror-kt
+      twitter: 882614778014740483
+      github: 43880251
   - id: 80914a39-1cdf-4fa3-b0cc-4e5d4c59189d
     name: でみ
     contacts:
-      twitter: Sw_Saturn
-      github: Sw-Saturn
+      twitter: 3010153832
+      github: 20313668
   - id: 4c62f06f-d7fd-4ae2-8a3a-4e059c7984c2
     name: にとふ
     contacts:
-      twitter: 2tfuyu
-      github: nitf
+      twitter: 1106462023074775040
+      github: 39296516
   - id: 0f418ed4-ec09-4e41-8994-9444a87e6a58
     name: Mikuro さいな
     contacts:
-      twitter: MikuroXina
-      github: MikuroXina
+      twitter: 2532702919
+      github: 10331164
   - id: e10719bc-b078-425d-bbd3-0e402e2b4908
     name: かわえもん
     contacts:
-      twitter: kawason0708
-      github: kawaemon
+      twitter: 799175620596858880
+      github: 34652535
   - id: 24905712-0078-4adb-8a68-b86903d4540a
     name: kakao.
     contacts:
-      twitter: e381x
-      github: kakao1839
+      twitter: 1051894681980657664
+      github: 38216541
   - id: b766fdbb-bbc5-420d-873e-92323fbf8093
     name: Siketyan
     contacts:
-      twitter: ch1aic
-      github: Siketyan
+      twitter: 1194852142638460929
+      github: 12772118
   - id: 11450c51-09c5-445f-ac69-d115daf9efc2
     name: raiga0310
     contacts:
-      twitter: raiga_tech
-      github: raiga0310
+      twitter: 1116308863878172672
+      github: 44018535
   - id: 16d7eadf-829c-4f94-b8a5-7e58be45a244
     name: Bony Chops
     contacts:
-      twitter: BonyChops
-      github: BonyChops
+      twitter: 4707591200
+      github: 52094083
   - id: c0b161b5-84b8-46c5-9b29-75c4d6da6ac1
     name: ぽちゃまあ
     contacts:
-      twitter: PotyaExe
-      github: potyama
+      twitter: 2684210670
+      github: 33587064
   - id: 35bd3291-65fb-4b2e-b0a6-8b8b5dddb54e
     name: ゆにおか
     contacts:
-      twitter: UniokaWorld
-      github: UniokaWorld
+      twitter: 4383188593
+      github: 52340378
   - id: 37816472-13ee-4ca8-9db7-e44e61297a46
     name: unios103
     contacts:
-      twitter: unios103
-      github: unios103
+      twitter: 1169893286812643329
+      github: 55628112
   - id: 6be77fa2-a469-4eab-9941-3120035761eb
     name: SHUN / しゅん
     contacts:
-      twitter: programmer_shun
-      github: shun-shobon
+      twitter: 1022007247214465025
+      github: 37236438
   - id: d4189032-ca16-46f7-a704-2dba36a697b1
     name: sou
     contacts:
-      twitter: is_stone_saw
-      github: stonesaw
+      twitter: 964831499689246720
+      github: 50014309
   - id: 227d3390-77eb-4fea-a464-6fbc3ad47f40
     name: たひ
     contacts:
-      twitter: Tahi_knct
-      github: Tahi-knct
+      twitter: 1008169354041544705
+      github: 48989381
   - id: ce8ebd4f-bf5c-4254-964f-44d9033cb00b
     name: おのかちお
     contacts:
-      twitter: onokatio_
-      github: onokatio
+      twitter: 797264228239507456
+      github: 14256420
   - id: bc6540ec-3ad1-4e19-8159-e29fe4bb1f7c
     name: おりかげ
     contacts:
-      twitter: _orikage
+      twitter: 1194454589484883968
       github: ~
   - id: 0d23a296-b3d8-45d0-b95d-dd4e80a13b66
     name: かさごん
     contacts:
-      twitter: Kasagone
-      github: m17saitou
+      twitter: 890169201289183232
+      github: 38357172
   - id: c8e84e15-8710-48c6-9af1-087540c35833
     name: てぃけ
     contacts:
-      twitter: tky_sleep
+      twitter: 876061842749050880
       github: ~
   - id: 4d8376a5-b894-40b3-8cbc-66dff5539709
     name: ねこ（はせがわ）
@@ -114,13 +114,13 @@ members:
   - id: 9c38ac46-fccd-495d-9b71-d54eb84fe2ab
     name: watαno
     contacts:
-      twitter: oxLC_theta
-      github: watano1168
+      twitter: 4494443234
+      github: 45062199
   - id: 65ad58b5-27e3-4d4b-adc5-442c9971e35a
     name: 某さん
     contacts:
-      twitter: nanigasi_3
-      github: nanigasi-san
+      twitter: 1076623274275028993
+      github: 44631106
   - id: 38032822-e97f-445e-8416-62be0026d195
     name: Yu
     contacts:
@@ -129,112 +129,112 @@ members:
   - id: 695ca68e-cad8-4a80-a182-a8f4872b745b
     name: かんたろう
     contacts:
-      twitter: kantarow_
-      github: kantarow
+      twitter: 906861487653662720
+      github: 39588288
   - id: dbb7cc9d-00cd-4d67-9f59-fb33d051c784
     name: チャハーン
     contacts:
-      twitter: Chaha1n
-      github: Chaha1n
+      twitter: 1098852544682455040
+      github: 49513840
   - id: 96c953e6-4d96-497f-be87-7b47e99135d3
     name: フレキシブル基板
     contacts:
-      twitter: FPC_COMMUNITY
-      github: FlexiblePrintedCircuits
+      twitter: 779660971652501505
+      github: 43064745
   - id: 78ee0fcd-1dc1-4c80-a9b0-664e4a03da40
     name: Lockdef
     contacts:
-      twitter: lockdef
-      github: Lockdef
+      twitter: 1025153147717574658
+      github: 40243059
   - id: 1f19d1fb-4798-429f-8b80-9fe1e205d54e
     name: ぬーべすと
     contacts:
-      twitter: facking_noobest
-      github: noobest19s
+      twitter: 1122912368021737472
+      github: 53614631
   - id: c0a5c7c1-8a56-426e-b382-accce1762fb5
     name: fof
     contacts:
-      twitter: 403_fof
+      twitter: 1132943077562245121
       github: ~
   - id: 53f7bf58-7fdf-43de-a812-9f93ab752e17
     name: Lino_Ren
     contacts:
-      twitter: alpha_linoren
+      twitter: 1106063224326127617
       github: ~
   - id: 138af419-6b5d-498c-b16b-b93ed74f17c5
     name: 寄り目
     contacts:
-      twitter: Yorime_yrm
+      twitter: 1002183622479114240
       github: ~
   - id: f05b7dec-bdd9-466e-a18b-2f30ce8d6fc5
     name: 柚月えふ
     contacts:
-      twitter: left_an4
+      twitter: 1280220925300838400
       github: ~
   - id: 94024fd0-1c9d-4a2d-835f-bc208a2efa90
     name: ソーシ
     contacts:
-      twitter: soshi_harami
-      github: soshiharami
+      twitter: 970208714446725120
+      github: 58943100
   - id: f31a362b-3235-476b-be86-d70c9b682490
     name: Laminne33569
     contacts:
-      twitter: laminne33569
-      github: laminne
+      twitter: 1056506601304031234
+      github: 40442980
   - id: 6bfc4277-2e5b-4473-b889-6a8c7fad3964
     name: 白兎
     contacts:
-      twitter: siroRabi_jk
+      twitter: 1175987049288986624
       github: ~
   - id: add61737-7010-4d3b-9e97-b54394bc7d7b
     name: Nanai10a
     contacts:
-      twitter: 771tenNext
-      github: Nanai10a
+      twitter: 1249212406187745281
+      github: 62282295
   - id: 43572f6b-c8d1-4f19-9a59-f03ee3382541
     name: 西行響希
     contacts:
-      twitter: Saigyo_HBK
-      github: HimHim1113
+      twitter: 1099900820638715904
+      github: 43987522
   - id: f4178ba4-c841-4acf-9400-da8e1ca4cb88
     name: とすあっぷ
     contacts:
-      twitter: tos_up
-      github: tos-up
+      twitter: 1231194934327201794
+      github: 65478744
   - id: 39b752b2-5abc-4c5e-9737-757c37e390c9
     name: Nii
     contacts:
-      twitter: niiLoveA320ceo
+      twitter: 1224982654132486145
       github: ~
   - id: acf86683-3dc6-4faa-95be-faaea5b3de86
     name: しぐま
     contacts:
-      twitter: sigumaaaaa
-      github: Sigumaa
+      twitter: 1231377606471118849
+      github: 66453922
   - id: bf8f1323-eadb-42aa-833f-d5a55810d012
     name: 宮野 慧
     contacts:
-      twitter: miyacorata
-      github: miyacorata
+      twitter: 3146168454
+      github: 12165058
   - id: afa94720-49b1-48da-a07d-70b2ddda81ea
     name: ねんね
     contacts:
-      twitter: nai_ber
-      github: nenne
+      twitter: 1214568364309282816
+      github: 66162556
   - id: 44d73d92-6909-4f95-8876-672e81625a4f
     name: りゅうと
     contacts:
-      twitter: rtx_gh
+      twitter: 1151767416529010688
       github: ~
   - id: 555d9dd2-8e83-49c1-b342-bdefab4a9f03
     name: Yusuke
     contacts:
-      twitter: idoit_do
+      twitter: 894425628987936770
       github: ~
   - id: 1378bcc6-f356-45ba-8755-1a8416d90a47
     name: えぬ
     contacts:
-      twitter: N3JABEE
+      twitter: 1116621807866400768
       github: ~
   - id: 482e222e-27de-4542-af8d-17600420198d
     name: Okaka
@@ -244,18 +244,18 @@ members:
   - id: 0d00e0aa-5ed6-423e-8b21-1fade2490750
     name: なぎねる
     contacts:
-      twitter: tirun61031a_o_a
+      twitter: 841909836413599745
       github: ~
   - id: 2d57dedb-a688-4089-99a4-cc47d4b7fa5b
     name: こるく
     contacts:
-      twitter: Colk_
-      github: Colk-tech
+      twitter: 1143516189743652864
+      github: 53868423
   - id: 0925ae68-d414-473b-a3e0-9e8e40dac483
     name: ko
     contacts:
-      twitter: ko_CottonLove
-      github: ko50
+      twitter: 1140239137590501377
+      github: 60608740
   - id: 55fc9a0d-a1e1-4cee-a794-8285323253c7
     name: foobar
     contacts:
