@@ -256,8 +256,3 @@ members:
     contacts:
       twitter: 1140239137590501377
       github: 60608740
-  - id: 55fc9a0d-a1e1-4cee-a794-8285323253c7
-    name: foobar
-    contacts:
-      twitter: ~
-      github: ~
