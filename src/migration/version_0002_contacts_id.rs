@@ -44,8 +44,8 @@ struct GitHubUser {
 impl From<old::Contacts> for Contacts {
     fn from(before: old::Contacts) -> Self {
         Contacts {
-            twitter: before.twitter.clone().map_or(None, get_twitter_id),
-            github: before.github.clone().map_or(None, get_github_id),
+            twitter: before.twitter.clone().and_then(get_twitter_id),
+            github: before.github.clone().and_then(get_github_id),
         }
     }
 }
