@@ -5,6 +5,7 @@ use uuid::Uuid;
 pub struct Contacts {
     twitter: Option<u64>,
     github: Option<u64>,
+    discord: Option<u64>,
 }
 
 #[derive(Clone, Debug, Serialize, Deserialize)]
@@ -22,6 +23,7 @@ impl Member {
             contacts: Contacts {
                 twitter: None,
                 github: None,
+                discord: None,
             },
         }
     }
