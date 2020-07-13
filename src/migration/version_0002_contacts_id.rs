@@ -91,7 +91,7 @@ pub fn get_twitter_id(screen_name: String) -> Option<u64> {
 
     let user: TwitterUser = request
         .send()
-        .expect(&format!("Failed to fetch Twitter user '{}'.", screen_name))
+        .unwrap_or_else(|_| panic!("Failed to fetch Twitter user '{}'.", screen_name))
         .json()
         .expect("Failed to deserialize as JSON.");
 
@@ -113,7 +113,7 @@ pub fn get_github_id(screen_name: String) -> Option<u64> {
 
     let user: GitHubUser = request
         .send()
-        .expect(&format!("Failed to fetch GitHub user '{}'.", screen_name))
+        .unwrap_or_else(|_| panic!("Failed to fetch GitHub user '{}'.", screen_name))
         .json()
         .expect("Failed to deserialize as JSON.");
 
