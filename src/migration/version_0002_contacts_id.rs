@@ -53,7 +53,7 @@ impl From<old::Contacts> for Contacts {
 impl From<old::Member> for Member {
     fn from(before: old::Member) -> Self {
         Member {
-            id: before.id.clone(),
+            id: before.id,
             name: before.name.clone(),
             contacts: before.contacts.clone().into(),
         }
