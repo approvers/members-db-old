@@ -3,8 +3,8 @@ use uuid::Uuid;
 
 #[derive(Clone, Debug, Serialize, Deserialize)]
 pub struct Contacts {
-    twitter: Option<String>,
-    github: Option<String>,
+    twitter: Option<u64>,
+    github: Option<u64>,
 }
 
 #[derive(Clone, Debug, Serialize, Deserialize)]
