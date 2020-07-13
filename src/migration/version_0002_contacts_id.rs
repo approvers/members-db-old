@@ -7,6 +7,8 @@ use uuid::Uuid;
 
 use super::version_0001_uuid as old;
 
+const APP_USER_AGENT: &str = "members-db-rust";
+
 #[readonly::make]
 #[derive(Clone, Deserialize, Serialize)]
 pub struct Contacts {
@@ -84,7 +86,7 @@ pub fn get_twitter_id(screen_name: String) -> Option<u64> {
     let client = reqwest::blocking::Client::new();
     let request = client
         .get(url.as_str())
-        .header(USER_AGENT, "members-db-rust")
+        .header(USER_AGENT, APP_USER_AGENT)
         .header(AUTHORIZATION, format!("Bearer {}", token));
 
     println!("Fetching from Twitter '{}'.", url);
@@ -106,7 +108,7 @@ pub fn get_github_id(screen_name: String) -> Option<u64> {
     let client = reqwest::blocking::Client::new();
     let request = client
         .get(url.as_str())
-        .header(USER_AGENT, "members-db-rust")
+        .header(USER_AGENT, APP_USER_AGENT)
         .header(AUTHORIZATION, format!("token {}", token));
 
     println!("Fetching from GitHub '{}'.", url);
