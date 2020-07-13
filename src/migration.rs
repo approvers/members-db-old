@@ -1,6 +1,7 @@
 mod version_0000_initial;
 mod version_0001_uuid;
 mod version_0002_contacts_id;
+mod version_0003_discord;
 
 use serde::Deserialize;
 use serde_yaml::Error;
@@ -22,6 +23,7 @@ pub fn migrate(path: &str) -> Result<(), Error> {
         yaml = match version {
             0 => version_0001_uuid::up(&yaml)?,
             1 => version_0002_contacts_id::up(&yaml)?,
+            2 => version_0003_discord::up(&yaml)?,
             _ => break,
         };
 
