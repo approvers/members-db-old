@@ -26,7 +26,7 @@ jobs:
 
       - name: Push the image
         run: |
-          IMAGE_ID=docker.pkg.github.com/${{ github.repository }}/$IMAGE_NAME
+          IMAGE_ID=$(echo "docker.pkg.github.com/${{ github.repository }}/$IMAGE_NAME" | tr '[:upper:]' '[:lower:]')
           VERSION=$(echo "${{ github.ref }}" | sed -e 's,.*/\(.*\),\1,')
           [[ "${{ github.ref }}" == "refs/tags/"* ]] && VERSION=$(echo $VERSION | sed -e 's/^v//')
           [ "$VERSION" == "master" ] && VERSION=latest
