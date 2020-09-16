@@ -16,7 +16,7 @@ fn index(state: State<Database>) -> Json<Vec<Member>> {
 #[get("/<id>")]
 fn show(state: State<Database>, id: Uuid) -> Result<Json<Member>, NotFound<()>> {
     state
-        .find_member(uuid::Uuid::from_bytes(id.as_bytes().clone()))
+        .find_member(uuid::Uuid::from_bytes(*id.as_bytes()))
         .ok_or(NotFound(()))
         .map(|m| Json(m.clone()))
 }
