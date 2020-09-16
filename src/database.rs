@@ -2,6 +2,7 @@ pub mod member;
 
 use member::Member;
 use serde::{Deserialize, Serialize};
+use uuid::Uuid;
 
 use crate::filesystem;
 
@@ -32,6 +33,10 @@ impl Database {
 
     pub fn get_members(&self) -> &Vec<Member> {
         &self.payload.members
+    }
+
+    pub fn find_member(&self, id: Uuid) -> Option<&Member> {
+        self.payload.members.iter().find(|m| m.has_id(id))
     }
 
     pub fn add_member(&mut self, member: Member) {

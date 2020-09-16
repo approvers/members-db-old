@@ -761,7 +761,7 @@ dependencies = [
  "serde",
  "serde_derive",
  "serde_yaml",
- "uuid",
+ "uuid 0.8.1",
 ]
 
 [[package]]
@@ -1207,6 +1207,7 @@ dependencies = [
  "rocket",
  "serde",
  "serde_json",
+ "uuid 0.7.4",
 ]
 
 [[package]]
@@ -1668,6 +1669,12 @@ dependencies = [
  "matches",
  "percent-encoding 2.1.0",
 ]
+
+[[package]]
+name = "uuid"
+version = "0.7.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "90dbc611eb48397705a6b0f6e917da23ae517e4d127123d2cf7674206627d32a"
 
 [[package]]
 name = "uuid"
