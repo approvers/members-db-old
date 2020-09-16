@@ -3,6 +3,7 @@ use rocket::response::status::NotFound;
 use rocket::routes;
 use rocket::State;
 use rocket_contrib::json::Json;
+use rocket_contrib::uuid::Uuid;
 
 use crate::database::member::Member;
 use crate::database::Database;
@@ -13,9 +14,9 @@ fn index(state: State<Database>) -> Json<Vec<Member>> {
 }
 
 #[get("/<id>")]
-fn show(state: State<Database>, id: String) -> Result<Json<Member>, NotFound<()>> {
+fn show(state: State<Database>, id: Uuid) -> Result<Json<Member>, NotFound<()>> {
     state
-        .find_member(&id)
+        .find_member(uuid::Uuid::from_bytes(id.as_bytes().clone()))
         .ok_or(NotFound(()))
         .map(|m| Json(m.clone()))
 }

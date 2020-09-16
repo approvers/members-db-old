@@ -2,6 +2,7 @@ pub mod member;
 
 use member::Member;
 use serde::{Deserialize, Serialize};
+use uuid::Uuid;
 
 use crate::filesystem;
 
@@ -34,7 +35,7 @@ impl Database {
         &self.payload.members
     }
 
-    pub fn find_member(&self, id: &str) -> Option<&Member> {
+    pub fn find_member(&self, id: Uuid) -> Option<&Member> {
         self.payload.members.iter().find(|m| m.equals(id))
     }
 
