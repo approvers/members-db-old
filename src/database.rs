@@ -36,7 +36,7 @@ impl Database {
     }
 
     pub fn find_member(&self, id: Uuid) -> Option<&Member> {
-        self.payload.members.iter().find(|m| m.equals(id))
+        self.payload.members.iter().find(|m| m.has_id(id))
     }
 
     pub fn add_member(&mut self, member: Member) {

@@ -28,7 +28,7 @@ impl Member {
         }
     }
 
-    pub fn equals(&self, id: Uuid) -> bool {
+    pub fn has_id(&self, id: Uuid) -> bool {
         self.id == id
     }
 }
