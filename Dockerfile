@@ -4,8 +4,8 @@ FROM alpine:3.12 AS build
 
 COPY . /src
 WORKDIR /src
-RUN apk add --no-cache --update rustup gcc musl-dev && \
-    rustup-init --default-toolchain nightly -y && \
+RUN apk add --no-cache --update curl gcc musl-dev && \
+    curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain nightly -y && \
     source $HOME/.cargo/env && \
     cargo build --release
 
