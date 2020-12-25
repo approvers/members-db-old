@@ -15,6 +15,9 @@ $ cargo run [options] <command> [args...]
 
 - **add \<name\>**  
   Adds a member with the name.
+  
+- **migrate**  
+  Migrates the database to the current version.
 
 ## Options
  - **-d \<path\>, --database=\<path\>**  
