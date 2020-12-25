@@ -1,4 +1,4 @@
-# members-db-rust
+# members-db
 Database of members in Approvers, implemented in Rust.
 
 ## Usage

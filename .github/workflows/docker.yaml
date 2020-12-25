@@ -9,7 +9,7 @@ on:
       - v*
 
 env:
-  IMAGE_NAME: members-db-rust
+  IMAGE_NAME: members-db
 
 jobs:
   push:
