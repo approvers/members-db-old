@@ -15,7 +15,6 @@ RUN apk add --no-cache --update curl gcc musl-dev && \
 FROM alpine:3.12
 
 WORKDIR /root
-COPY database.yaml /root/database.yaml
 COPY --from=build /src/target/release/members-db /usr/local/bin/members-db
 EXPOSE 8080
 ENTRYPOINT ["/usr/local/bin/members-db"]
