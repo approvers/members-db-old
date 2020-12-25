@@ -1,4 +1,7 @@
 # members-db
+![Rust](https://github.com/approvers/members-db/workflows/Rust/badge.svg)
+![Docker](https://github.com/approvers/members-db/workflows/Docker/badge.svg)
+
 Database of members in Approvers, implemented in Rust.
 
 ## Usage
@@ -15,6 +18,9 @@ $ cargo run [options] <command> [args...]
 
 - **add \<name\>**  
   Adds a member with the name.
+  
+- **migrate**  
+  Migrates the database to the current version.
 
 ## Options
  - **-d \<path\>, --database=\<path\>**  
